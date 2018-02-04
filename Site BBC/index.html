@@ -32,7 +32,7 @@
             
             #signin-image{
                 width: 30px;
-                margin: 12px 15px;
+                margin: 9px 15px;
                 float: left;
             }
         
@@ -91,7 +91,98 @@
                 width: 50px;
                 background-color: #E4E4E4;
             }
-            .
+            
+            .clear {
+                clear: both;
+            }
+            
+            #menu-bar-container{
+                
+                background-color: #BB1919;
+                width: 100%;
+                height: 70px;
+            }
+            
+            #menu-bar{
+                margin: 0 auto;
+                width: 1000px;
+                
+            }
+            
+            h1 {
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float: left;
+            }
+            
+            #local-news{
+                
+                border: 2px #BB4545 solid;
+                float: right;
+                width: 210px;
+                padding: 5px;
+                margin: 10px 10px 0 0;
+            }
+            
+            #local-news a{
+                
+                color: white;
+                text-decoration: none;
+                font-size: 25px;
+                position: relative;
+            }
+            
+            #local-news a:hover{
+                text-decoration: underline;
+            }
+            
+            #local-news img{
+                height: 25px;
+            }
+            
+            #menu-bar-2-container{
+               background-color: #A91717;
+                width: 100%;
+                margin-top: 7px;
+            }
+            
+            #menu-bar-2{
+                width:1000px;
+                margin: 0 auto;
+                height: 35px;
+                
+            }
+            
+            #menu-bar-2 a{
+                
+                color:white;
+                text-decoration: none;
+                padding: 0px 10px;
+                //margin-top: 5px;
+                border-right: 1px solid #BB4545;
+                font-size: 16px;
+                top: 5px;
+                position: relative;
+            }
+            
+            #menu-bar-2 a:hover{
+                text-decoration: underline;
+            }
+            
+            .no-border{
+                border:none !important;
+            }
+            
+             #down-arrow{
+                height: 20px;
+                top: 10px;
+                 left: -9px;
+                position: relative;
+            }
         </style>
     </head>
    
@@ -118,7 +209,37 @@
                 
                  <input type="image" id="search-icon" src="images/search-icon.png">
             </div>
+        </div>
+        
+        <div class="clear"></div>
+        <div id="menu-bar-container">
+            <div id="menu-bar">
+                <h1>BRASIL</h1>
+                
+                <div id="local-news">
+                    <a href="">Find local news</a>
+                    <img src="images/ic_room_white_24dp_2x.png">
+                </div>
+            </div>
             
+            <div class="clear"></div>
+            <div id="menu-bar-2-container">
+                <div id="menu-bar-2">
+                    <a href="">Home</a>
+                    <a href="">Uk</a>
+                    <a href="">World</a>
+                    <a href="">Business</a>
+                    <a href="">Politics</a>
+                    <a href="">Tech</a>
+                    <a href="">Science</a>
+                    <a href="">Health</a>
+                    <a href="">Education</a>
+                    <a href="">Entertainment</a>
+                    <a href="">Video & Audio</a>
+                    <a href="" class="no-border" >More</a>
+        <img id="down-arrow" src="images/ic_arrow_drop_down_white_24dp_1x.png">
+                </div>
+            </div>
         </div>
     </body>
 </html>
