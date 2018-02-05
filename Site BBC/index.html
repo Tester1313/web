@@ -218,7 +218,7 @@
                 float: left;
             }
             
-            #article-summary img {
+            .clock {
                 height: 18px;
                 position: relative;
                 top: 3px;
@@ -230,7 +230,7 @@
                 
                 color:#a91717;
                 text-decoration: none;
-                font-weight: bold; 
+                font-weight: bold;
             }
             
             #article-summary a:hover {
@@ -260,6 +260,52 @@
             .article-link {
                 color: black;
                 text-decoration: none;
+            }
+            
+            #watch-listen {
+                
+                margin-left: 10px;
+                width: 290px;
+                float: right;
+                color:#5a5a5a;
+            }
+            
+            h4 {
+                
+                font-weight: normal;
+                font-size: 25px;
+            }
+            
+            .articles-side-image {
+                
+                float:left;
+                width: 110px;
+                margin-right: 10px;
+            }
+            
+            .watch-listen-link {
+                
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            
+            .watch-listen-link:hover {
+                
+                color:#1167a8;
+            }
+            
+            
+            .side-article {
+                //width: 300px;
+                position: relative;
+            }
+            
+            .no-border {
+                border-left: none;
+                margin-left: 135px;
+                padding: 0;
             }
         </style>
     </head>
@@ -332,7 +378,7 @@
 
                     <div id="article-summary">
                        <p>Security vulnerabities that put customers at risk have affected Asda's website for a coupe of years, a security expert has revealed. </p> 
-                        <p><img src="images/clock.png">04 February 2018 | <a id="topic-link" href="">Technology</a></p>
+                        <p><img class="clock" src="images/clock.png">04 February 2018 | <a id="topic-link" href="">Technology</a></p>
                         
                         <hr id="article-hr" align="left">
                         
@@ -342,6 +388,40 @@
                     
                     <img id="main-article-image" src="images/main-article-image/asda.png">
               </div>
+            </div>
+            
+            <div id="watch-listen">
+            
+                <h4>Watch/Listen </h4>
+                
+                <img class="articles-side-image" src="images/watch-listen-images/1.PNG">
+                
+                <div class="side-article">
+                
+                    <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+                    <p><img class="clock" src="images/clock.png">04 February 2018</p>
+                    
+                </div>
+                <div class="clear"></div>
+                <img class="articles-side-image" src="images/watch-listen-images/2.PNG">
+                
+                <div class="side-article">
+                
+                    <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+                    <p><img class="clock" src="images/clock.png">04 February 2018 <a class="topic-link no-border" href="">Technology</a></p>
+                    
+                </div>
+                <div class="clear"></div>
+                <img class="articles-side-image" src="images/watch-listen-images/3.PNG">
+                
+                <div class="side-article">
+                
+                    <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+                    <p><img class="clock" src="images/clock.png">04 February 2018 <a id="topic-link" href="">Technology</a></p>
+                    
+                </div>
+                
+                <div class="clear"></div>
             </div>
         </div>
     </body>
