@@ -8,14 +8,14 @@
         
         <p id="text">Hello World</p>
         
-        <button onclick="alert('Teste alert')">Click Me</button>
+        <button id="myButton">Change Text</button>
         
         <script type="text/javascript">
         
-            // Comentario de uma linha
-            
-            /* Comanta mais de uma linha */
-            document.getElementById("text").innerHTML = "Hello Thiago";
+            document.getElementById("myButton").onclick = function(){
+                
+                document.getElementById("myButton").innerHTML = "Teste 123";
+            }
             
         </script>
     </body>
