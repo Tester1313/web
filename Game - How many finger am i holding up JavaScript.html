@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p> How many finger am I holding up ?</p>
+        <p><input type="text" id="guess"><button id="checkGuess">Guess</button></p>
+        <script type="text/javascript">
+            //Math floor tira os decimais do random()
+          // alert(Math.floor(Math.random() * 6));
+            
+            document.getElementById("checkGuess").onclick = function() {
+                
+                var randomNumber = Math.random();
+                
+                randomNumber = randomNumber * 6;
+                
+                randomNumber = Math.floor(randomNumber);
+                
+                if (document.getElementById("guess").value == randomNumber){
+                    alert("Acertou miseravii, o numero sorteado foi: " + randomNumber);
+                } else {
+                    alert("Tente novamente palestrinha o numero sorteado foi: " + randomNumber);
+                }
+            }
+            
+        </script>
+    </body>
+</html>
